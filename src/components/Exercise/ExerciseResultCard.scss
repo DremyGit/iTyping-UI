@@ -1,0 +1,66 @@
+@import "../Mainlayout/define.scss";
+
+.card {
+  box-shadow: #999 0 0 4px 0;
+}
+
+.textPanel {
+  background-color: $main-color;
+  position: relative;
+  height: 150px;
+  padding: 20px;
+  color: #fff;
+
+  > h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  > small {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+.graphPanel {
+  height: 250px;
+}
+
+.primary {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  strong {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+}
+
+.info {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+
+  li {
+    list-style: none;
+    margin-top: 10px;
+  }
+
+  strong {
+    display: inline-block;
+    font-size: 24px;
+    min-width: 80px;
+  }
+
+  span:nth-of-type(2) {
+    margin-left: 10px;
+    // font-size: 24px;
+  }
+}
+

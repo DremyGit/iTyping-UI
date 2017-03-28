@@ -1,0 +1,28 @@
+.exercise {
+  margin-top: 100px;
+  width: 900px;
+  position: absolute;
+}
+
+
+.enter {
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+.enterActive {
+  transform: translate(0);
+  opacity: 1;
+  transition: all .3s ease-in;
+}
+
+.leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.leaveActive {
+  opacity: 0;
+  transform: translateY(-200px);
+  transition: all .3s ease-out;
+}

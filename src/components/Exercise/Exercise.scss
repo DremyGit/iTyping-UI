@@ -1,0 +1,30 @@
+@import "../MainLayout/define.scss";
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  margin: 20px 0;
+  font-size: 28px;
+}
+
+.exercise * {
+  user-select: none;
+}
+
+.time {
+  color: $main-color;
+}
+
+.input {
+  font-size: 24px;
+  padding: 10px 16px;
+  width: 240px;
+  margin: 0 40px;
+}
+
+.refresh {
+  width: 36px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,20 @@
+.result {
+  width: 900px;
+  position: absolute;
+}
+
+.resultCard {
+  margin-top: 80px;
+  width: 380px;
+}
+
+.refresh {
+  margin: 30px auto;
+  width: 48px;
+  display: block;
+  cursor: pointer;
+
+  > img {
+    width: 48px;
+  }
+}
